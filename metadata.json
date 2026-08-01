@@ -1,10 +1,15 @@
 {
-  "dataset": "SST-2",
-  "citation": "Socher et al. (2013) EMNLP pp.1631-1642",
-  "license": "Research use",
-  "huggingface": "stanfordnlp/sst2",
-  "note": "Binary labels \u2014 neutral class absent in gold standard",
-  "experiment_file": "sst2_experiment.csv",
-  "study_role": "D2 \u2014 formal review text, human-judged phrases",
+  "dataset": "Financial PhraseBank",
+  "citation": "Malo et al. (2014) JASIST 65:782-796",
+  "license": "CC BY-NC-SA 3.0",
+  "huggingface": "takala/financial_phrasebank",
+  "tiers": [
+    "allagree",
+    "75agree",
+    "66agree",
+    "50agree"
+  ],
+  "experiment_file": "fpb_experiment.csv",
+  "study_role": "D1 \u2014 formal financial text, 16 finance experts",
   "downloaded": "2026-05-31"
 }
