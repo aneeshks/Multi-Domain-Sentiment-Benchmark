@@ -1,9 +1,10 @@
 {
-  "dataset": "TweetEval \u2014 sentiment",
-  "citation": "Barbieri et al. (2020) EMNLP Findings",
-  "license": "CC 3.0",
-  "huggingface": "cardiffnlp/tweet_eval (config=sentiment)",
-  "experiment_file": "tweeteval_experiment.csv",
-  "study_role": "D3 \u2014 informal social media text, crowdsourced",
+  "dataset": "SST-2",
+  "citation": "Socher et al. (2013) EMNLP pp.1631-1642",
+  "license": "Research use",
+  "huggingface": "stanfordnlp/sst2",
+  "note": "Binary labels \u2014 neutral class absent in gold standard",
+  "experiment_file": "sst2_experiment.csv",
+  "study_role": "D2 \u2014 formal review text, human-judged phrases",
   "downloaded": "2026-05-31"
 }
