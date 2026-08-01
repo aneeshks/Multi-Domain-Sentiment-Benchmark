@@ -1,14 +1,9 @@
 {
-  "dataset": "Twitter Financial News Sentiment (TFNS)",
-  "citation": "Zeroshot (2022)",
-  "license": "MIT",
-  "huggingface": "zeroshot/twitter-financial-news-sentiment",
-  "label_mapping": {
-    "bearish": "negative",
-    "bullish": "positive",
-    "neutral": "neutral"
-  },
-  "experiment_file": "tfns_experiment.csv",
-  "study_role": "D4 \u2014 informal financial social media, crowdsourced",
+  "dataset": "TweetEval \u2014 sentiment",
+  "citation": "Barbieri et al. (2020) EMNLP Findings",
+  "license": "CC 3.0",
+  "huggingface": "cardiffnlp/tweet_eval (config=sentiment)",
+  "experiment_file": "tweeteval_experiment.csv",
+  "study_role": "D3 \u2014 informal social media text, crowdsourced",
   "downloaded": "2026-05-31"
 }
