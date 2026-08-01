@@ -1,0 +1,16 @@
+VADER validation data could not be downloaded automatically.
+
+Manual steps:
+1. Go to: https://github.com/cjhutto/vaderSentiment/tree/master/additional_resources/Assorted_Datasets
+2. Download these 4 files into this folder:
+     tweets_GroundTruth.txt
+     nyt_editorial_snippets_GroundTruth.txt
+     amazon_cells_labelled_GroundTruth.txt
+     movieReviewSnippets_GroundTruth.txt
+3. Re-run this script to generate vader_experiment.csv
+
+Format: score<TAB>text  (score: -4 to +4)
+Label thresholds (per Hutto & Gilbert 2014):
+  score >= 0.05  → positive
+  score <= -0.05  → negative
+  else                   → neutral

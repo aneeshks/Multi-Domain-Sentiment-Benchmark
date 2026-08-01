@@ -1,0 +1,16 @@
+{
+  "dataset": "VADER Validation Set",
+  "citation": "Hutto & Gilbert (2014) ICWSM",
+  "license": "MIT",
+  "source": "github.com/cjhutto/vaderSentiment",
+  "label_threshold": "score>=0.05\u2192positive; <=-0.05\u2192negative; else\u2192neutral",
+  "sources": [
+    "tweets",
+    "nyt",
+    "amazon",
+    "movies"
+  ],
+  "experiment_file": "vader_experiment.csv",
+  "study_role": "D5 \u2014 cross-domain (tweets+news+reviews), screened raters",
+  "downloaded": "2026-05-31"
+}
